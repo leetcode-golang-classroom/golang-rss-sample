@@ -16,5 +16,16 @@ go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
 go install github.com/pressly/goose/v3/cmd/goose@latest
 ```
 
+## develop flow for goose and sqlc
+
+1. update sql schema
+
+2. migrate sql schema change
+  
+3. write query sql 
+   
+4. generate model code
+
 ## architecture
 
+![architecture](image.png)
